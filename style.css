@@ -1,0 +1,111 @@
+/* General styling for the body and containers */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.story {
+    padding: 20px;
+    margin: 40px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Markdown-like styling */
+.story h2 {
+    color: #333;
+    font-size: 2.5em;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.story p {
+    line-height: 1.8;
+    margin: 15px 0;
+    color: #555;
+}
+
+.story strong {
+    color: #333;
+}
+
+.story pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.story code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    color: #d63384;
+}
+
+.story a {
+    color: #007bff;
+    text-decoration: none;
+    border-bottom: 1px dotted #007bff;
+}
+
+.story a:hover {
+    color: #0056b3;
+    border-bottom: 1px solid #0056b3;
+}
+
+.story ul, .story ol {
+    margin: 20px 0;
+    padding-left: 20px;
+    color: #555;
+}
+
+.story ul {
+    list-style-type: disc;
+}
+
+.story ol {
+    list-style-type: decimal;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
